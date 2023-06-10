@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../images/body-bg.png);
+	background-repeat: repeat;
+}
+#login-wrap{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+.login {
+	width: 450px;
+}
+
+.login_head {
+	width: 450px;
+	height: 50px;
+	line-height: 50px;
+	background: #009999;
+	padding: 0 10px;
+}
+
+.login_head h3 {
+	float: left;
+	color: #FFF;
+	font-family: "宋体";
+	font-size: 18px;
+}
+
+.login_window {
+	width: 450px;
+	height: 230px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.login_window label {
+	float: left;
+	color: #3C4049;
+	font-family: "宋体";
+	font-size: 14px;
+}
+
+.login_window input {
+	width: 410px;
+	height: 35px;
+	padding: 2% 2%;
+	border-collapse: collapse;
+}
+
+.login_root {
+	width: 200px;
+	height: 30px;
+}
+
+.login_root input {
+	float: left;
+	width: 14px;
+}
+
+.reg {
+	float: left;
+}
+
+.reg a {
+	color: red;
+	text-decoration: none;
+	display: block;
+}
+.btn{
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	background: #66F4DF;
+	cursor: pointer;
+	color: white;
+}
+.input-wrap{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.input-wrap .input-label{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translate(0, -50%);
+	color: lightgray;
+	transition: all .4s;
+	background: white;
+	padding: 0 2px;
+}
+.input-wrap .input-text:focus + .input-label,
+.input-wrap .input-text:valid + .input-label{
+	top: 0;
+	color: #009999;
+}
+.input-text{
+	border: 1px solid #66CCCC;
+	outline: none;
+	border-radius: 5px;
+}
+/* 以上是login.jsp的页面样式 */

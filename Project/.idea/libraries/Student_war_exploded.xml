@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Student_war_exploded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Student/out/artifacts/Student_war_exploded/javax.transaction.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
